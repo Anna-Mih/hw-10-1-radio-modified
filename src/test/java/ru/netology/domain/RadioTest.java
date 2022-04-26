@@ -107,7 +107,7 @@ class RadioTest {
     @Test
     void shouldSetCurrentStationOverMax() {
         Radio radio = new Radio(70);
-        radio.setCurrentStation(radio.getQuantityOfStations());
+        radio.setCurrentStation(77);
         int expected = 0;
         int actual = radio.getCurrentStation();
         assertEquals(expected, actual);
